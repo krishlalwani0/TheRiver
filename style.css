@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background: #0a0a0a;
+  transform: none;
+}
+#header p, h2, h3{
+  text-align: center;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#header img {
+  width: 20rem;
+  margin: auto;
+  display: block;
+  margin-bottom: -7rem;
+  margin-top: -9rem;
+}
+#header h2{
+  font-size: 1rem;
+}
+#stare h2 {
+  margin: 3rem;
+  position: relative;
+  text-align: center;
+  color: black;
+  background: white;
+  padding: 7rem;
+  font-size: 0.8rem;
+}
+#stare h2:hover{
+  color: white;
+  background: black;
+}
+#header h3{
+  color: red;
+}
+#stare p, h3 {
+  color: white;
+  position: relative;
+  text-align: center;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+}
+#stare h3 {
+  color: red;
+}
+#logo{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+}
+#logo img{
+  width: 6rem;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  margin: 1.2rem;
+}
+#logo img:hover{
+  border-width: 20px;
+  border-color: white;
+}
+#li h3{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 70rem;
+  margin-top: 2rem;
+}
+#foot h2{
+  background: #a00006;
+  color: white;
+  font-size: 0.8rem;
+}
+#foot h2:hover{
+  background: white;
+  color: #a00006;
+}
+#me{
+  background: #a00006;
+  color: white;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+#me:hover{
+  background: white;
+  color: #a00006;
+}
+.container a{
+  position: relative;
+  text-align: center;
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}  
+#contents h2, a{
+  text-align: center;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#contents h2{
+  margin: 2rem;
+  color: white;
+  border-style: dotted;
+}
+#contents a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 1rem;
+  color: white; 
+}
